@@ -1,0 +1,31 @@
+{
+  "name": "cropssystem",
+  "version": "1.0.0",
+  "description": "**LavaLite** is a lightweight PHP framework designed for developers who want\r **speed, simplicity, and control** — without the bloat.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:js": "npx esbuild src/main.js --bundle --minify --outfile=public/js/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motchoochockiee-spec/CropsSystem.git",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:js": "npx esbuild src/main.js --bundle --minify --outfile=public/js/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/motchoochockiee-spec/CropsSystem/issues"
+  },
+  "homepage": "https://github.com/motchoochockiee-spec/CropsSystem#readme",
+  "devDependencies": {
+    "esbuild": "^0.28.0",
+    "tailwindcss": "^3.4.19"
+  },
+  "dependencies": {
+    "chart.js": "^4.5.1"
+  }
+}
