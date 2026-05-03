@@ -190,6 +190,11 @@ $chart_disease_data    = json_encode(array_values($top_conditions));
                       text-gray-500 hover:bg-gray-100 font-medium text-sm transition-colors">
                 🔍 Analyze
             </a>
+            <a href="<?= url('plots') ?>"
+               class="flex items-center gap-1.5 px-3 py-2 rounded-lg
+                      text-gray-500 hover:bg-gray-100 font-medium text-sm transition-colors">
+                🗺️ Field Plots
+            </a>
             <a href="<?= url('history') ?>"
                class="flex items-center gap-1.5 px-3 py-2 rounded-lg
                       text-gray-500 hover:bg-gray-100 font-medium text-sm transition-colors">

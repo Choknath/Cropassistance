@@ -62,6 +62,7 @@ $user = $_SESSION['user'] ?? null;
         <div class="flex items-center gap-1">
             <a href="<?= url('dashboard') ?>" class="flex items-center gap-1.5 px-3 py-2 rounded-lg text-gray-500 hover:bg-gray-100 font-medium text-sm transition-colors">📊 Dashboard</a>
             <a href="<?= url('crop-assistant') ?>" class="flex items-center gap-1.5 px-3 py-2 rounded-lg bg-green-50 text-green-700 font-medium text-sm border border-green-200"><span>🔍</span> Analyze</a>
+             <a href="<?= url('plots') ?>" class="flex items-center gap-1.5 px-3 py-2 rounded-lg text-gray-500 hover:bg-gray-100 font-medium text-sm transition-colors">🗺️ Field Plots</a>
             <a href="<?= url('history') ?>" class="flex items-center gap-1.5 px-3 py-2 rounded-lg text-gray-500 hover:bg-gray-100 font-medium text-sm transition-colors"><span>📋</span> History</a>
             <a href="<?= url('logout') ?>" class="text-xs text-gray-400 hover:text-red-500 transition-colors px-2 py-1 rounded-lg hover:bg-red-50 ml-1">Logout</a>
         </div>
